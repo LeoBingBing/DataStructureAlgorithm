@@ -29,5 +29,6 @@ public class arrayTest {
        array.addFirst(1);
        array.set(1, 2);
        System.out.println(array.get(1));
+       //heheh
    }
 }
