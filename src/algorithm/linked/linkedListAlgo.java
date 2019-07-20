@@ -18,8 +18,12 @@ import java.util.Map;
  * 4、删除链表倒数第 N 个节点
  * 5、求链表的中间节点
  *
- * 一点总结：链表操作中最重要的是确定指针的指向问题
- */
+ * 一点总结：
+ * 1、链表操作中最重要的是确定指针的指向问题
+ * 2、边界条件需要梳理清晰，链表插入删除操作需要注意首尾节点，引入哨兵（含有哨兵的链表称为带头链表、相反称为非带头链表）
+ *  哨兵方式可以很好的简化编程难度的技巧，并对程序有一定的优化
+ * 3、删除链表注意释放内存空间
+ * */
 
 public class linkedListAlgo {
 
@@ -147,6 +151,22 @@ public class linkedListAlgo {
         }
 
         return list;
+    }
+
+    //求链表的中间节点
+    //同上，快慢指针，快指针走两步、慢指针走两步
+    public static Node findMiddleNode(Node list){
+        if(list == null) return  list;
+
+        Node fast = list;
+        Node slow = list;
+
+        while(fast.next != null && fast.next.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
     }
 
     public class Node{
