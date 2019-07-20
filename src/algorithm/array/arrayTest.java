@@ -1,6 +1,4 @@
-package algorithm;
-
-import java.sql.Array;
+package algorithm.array;
 
 /**
  * @author wb

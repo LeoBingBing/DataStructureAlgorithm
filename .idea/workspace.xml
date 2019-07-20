@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f85cc38-9ed9-472d-8fea-b243b5408ebd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/array/array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/array/arrayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/array/genericArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/bSearch/binarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/linked/jumpLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/linked/linkedListAlgo$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/linked/linkedListAlgo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/linked/singlyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/linked/singlyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/lru/lruBaseLinkedList$Snode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/lru/lruBaseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/lru/lrubasearray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/queue/queueBaseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/queue/queueBaseLinked$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/queue/queueBaseLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/queue/queueByCircle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/queue/queueDynamic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/sort/sortByOlogN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/sort/sortByOn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/sort/sortByOn2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/stack/stackBaseLinked$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/stack/stackBaseLinked$linkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/stack/stackBaseLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/algorithm/tree/treeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/note/algorithmBase" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructureAlgorithm/note/timeComplexity_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/bSearch/binarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/linked/jumpLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/queue/queueBaseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/queue/queueBaseLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/queue/queueByCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/queue/queueDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/sortByOlogN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/sortByOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/sortByOn2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/stack/stackBaseLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/tree/binarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/tree/treeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/arrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/arrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/genericArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/genericArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/linkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/linked/linkedListAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/lruBaseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/lru/lruBaseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/lrubasearray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/lru/lrubasearray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/singlyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/linked/singlyLinkedList.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataStructureAlgorithm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/tree/treeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/tree/binarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>n²</find>
+      <find>binSearchByCleFindLastRtgtEle</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>n²</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="github/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/.idea/note" />
+        <option value="$PROJECT_DIR$/src/note/timeComplexity_1" />
+        <option value="$PROJECT_DIR$/src/algorithm/array.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/genericArray.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/singlyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/lrubasearray.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/lruBaseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/note/algorithmBase" />
+        <option value="$PROJECT_DIR$/src/algorithm/arrayTest.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/linkedListAlgo.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/testStackLinked.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/SampleBrowser.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/stackBaseLink.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/queueBaseArray.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/array/arrayTest.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/stack/stackBaseLinked.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/queue/queueBaseLinked.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/queue/queueByCircle.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/queue/queueDynamic.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/sort/sortByOn2.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/sort/sortByOlogN.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/bSearch/binarySearch.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/linked/jumpLinked.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/tree/forTree.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/tree/binarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/tree/treeNode.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DataStructureAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructureAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructureAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructureAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructureAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructureAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructureAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructureAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Develop_Softs\IDE\project\DataStructureAlgorithm\src\note" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.treeNode">
+    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.bSearch.binarySearch" />
+      <module name="DataStructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.bSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortByOlogN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.sortByOlogN" />
+      <module name="DataStructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortByOn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.sortByOn2" />
+      <module name="DataStructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stackBaseLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.stack.stackBaseLink" />
+      <module name="DataStructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="treeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.tree.treeNode" />
+      <module name="DataStructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.treeNode" />
+        <item itemvalue="Application.binarySearch" />
+        <item itemvalue="Application.sortByOlogN" />
+        <item itemvalue="Application.sortByOn2" />
+        <item itemvalue="Application.stackBaseLink" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f85cc38-9ed9-472d-8fea-b243b5408ebd" name="Default Changelist" comment="" />
+      <created>1537767451430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537767451430</updated>
+      <workItem from="1562855369595" duration="6236000" />
+      <workItem from="1563033088368" duration="2330000" />
+      <workItem from="1563073124836" duration="19820000" />
+      <workItem from="1563201669804" duration="796000" />
+      <workItem from="1563585784228" duration="313000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1537769186474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537769186474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hello world">
+      <created>1537770063147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537770063147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello world">
+      <created>1539356009504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539356009504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hello world">
+      <created>1539357352117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539357352117</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hello world">
+      <created>1549897153573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549897153573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hello world">
+      <created>1549897583839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549897583839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hello world">
+      <created>1550331405240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550331405240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29495000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23485868" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5021097" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7205094" weight="0.216885" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3930131" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32751092" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.32751092" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27949062" side_tool="true" weight="0.2266289" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven-2 Build" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="hello world" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello world" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DataStructureAlgorithm.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk1.8.0_31/src.zip!/java/lang/reflect/Array.java" />
+    <entry file="jar://E:/jdk1.8.0_31/src.zip!/java/sql/Array.java" />
+    <entry file="jar://E:/jdk1.8.0_31/src.zip!/java/lang/Integer.java" />
+    <entry file="jar://E:/jdk1.8.0_31/src.zip!/java/util/HashMap.java" />
+    <entry file="jar://E:/jdk1.8.0_31/javafx-src.zip!/javafx/scene/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/note/timeComplexity_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="97" selection-start-line="1" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/note/algorithmBase">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/SampleBrowser.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithm/array/arrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/array/genericArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/stack/stackBaseLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/queue/queueByCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/queue/queueDynamic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/queue/queueBaseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/queue/queueBaseLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/linked/singlyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/linked/linkedListAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/sortByOlogN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/sortByOn2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/sortByOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/lru/lruBaseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/lru/lrubasearray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/linked/jumpLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_31/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="168" column="7" lean-forward="true" selection-start-line="168" selection-start-column="7" selection-end-line="168" selection-end-column="7" />
+          <folding>
+            <element signature="e#12004#12005#0" expanded="true" />
+            <element signature="e#12044#12045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/bSearch/binarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/array/array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/tree/treeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/tree/binarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
