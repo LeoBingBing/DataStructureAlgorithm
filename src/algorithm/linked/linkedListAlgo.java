@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.linked;
 
 /**
  * @author wb
@@ -10,6 +10,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 注释：链表中的 = ，代表开始建立关系 [简单理解为，位置更迭，类似于传位]，不是简单的赋值操作
+ *
  * 1、单链表翻转
  * 2、链表中环的检测
  * 3、两个有序的链表合并
@@ -74,11 +76,13 @@ public class linkedListAlgo {
     }
 
     //两个有序链表合并。
-    //可以发散的想象成衣服上的拉链，拉锁不动，拉链在移动
+    //可以抽象成衣服上的拉链，拉锁不动，拉链在移动
     public static Node mergerSortedLists(Node la,Node lb){
+        //判断是否为空，即可直接返回
         if(la == null) return lb;
         if(lb == null) return la;
 
+        //找到首节点
         Node head;
 
         if(la.data < lb.data){
@@ -88,9 +92,10 @@ public class linkedListAlgo {
             head = lb;
             lb = lb.next;
         }
-
+        //将首节点放到某个位置
         Node r = head;
 
+        //寻找下一个节点， link.next 赋值并移动
         while(la !=null && lb != null){
             if(la.data < lb.data){
                 r.next = la;
@@ -99,10 +104,10 @@ public class linkedListAlgo {
                 r.next = lb;
                 lb = lb.next;
             }
-            //不断更新首节点，在这个过程中，整个关系链已经形成，不需要在意之前已经建立的指向关系
+            //不断更新节点并后移，在这个过程中，整个关系链已经形成，不需要在意之前已经建立的指向关系
             r = r.next;
         }
-
+        //如果某个链表遍历完成，直接将另一个链表拼接完成即可
         if(la != null){
             r.next = la;
         }else {
